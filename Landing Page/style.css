@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@300&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+body,html {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.5;
+      text-align: center;
+
+            
+}
+p {
+      font-weight: normal;
+      padding: 1em 0;
+      font-size: 17px;
+}
+
+h1 {
+      font-size: 2.6rem;
+      font-weight:900;
+      white-space: nowrap;
+
+}
+
+.btn {
+      padding: 1rem 2rem 1rem 2rem;
+      background-color: rgb(58, 55, 55);
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0.5em 0;
+      border:  solid rgb(75, 75, 75);
+}
+.head {
+      background-image: url(./bg-image.jpg);
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      color: #fff;    
+      background-blend-mode: multiply;  
+      background-color: rgb(129, 119, 119);
+}
+
+.content {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+
+}
+
+
+/* SECTION A */
+
+#sectionA {
+      padding: 2.5rem 7rem 2.5rem 7rem;
+      background-color: rgb(211, 203, 203);
+}
+
+.container1 {
+      display: flex;
+      justify-content: space-around;
+}
+
+.sectionA-p{
+      color: rgb(12, 11, 11);
+}
+
+
+/* Section B Cards */
+
+#sectionB{
+      background-color: rgb(54, 53, 53);
+      padding: 2rem 10rem 2rem 10rem;
+      
+      
+}
+
+.wrapper ul{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;  
+      grid-gap: 1.5rem;  
+}
+
+.wrapper ul li {
+      background-color: rgb(255, 255, 255);
+      list-style: none;
+}
+
+
+
+.wrapper .card-content{
+      padding: 3rem 1rem 3rem 1rem;
+      
+}
+
+.wrapper .card-content p{
+      font-size: 15px;
+      padding: 30px 0 30px 0;
+      
+}
+
+
+img {
+      height: 30vh;
+      width: 100%;
+
+}
+
+/* Section C */
+
+#sectionC {
+      background-color: #fff;
+      padding: 4rem 15rem 4rem 15rem;
+
+}
+
+#sectionC h2{
+      padding-bottom: 16px;
+
+}
+
+/* Section D */
+
+#sectionD {
+      color: #fff;
+}
+.information{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+}
+
+
+.contact-us, .about-company {
+      padding: 3rem 2rem 3rem 2rem;
+}
+
+.contact-us, .about-company, p{
+     font-size: 1rem;
+    
+}
+.contact-us, .about-company, h2{
+      padding-bottom: 1.5rem;
+     
+ }
+ 
+
+.contact-us {
+      background-color: rgb(86, 121, 219);
+   
+}
+
+.em{
+      margin-top: 1rem;
+}
+.about-company {
+      background-color: rgb(49, 44, 44);
+    
+}
+/* 
+Footer */
+footer {
+      display: flex;
+      justify-content: space-around;   
+      background-color: rgb(0, 0, 0); 
+      color: #fff;
+      padding: 2.5rem;
+}
+
+.name{
+      color: rgb(105, 173, 245);
+}
